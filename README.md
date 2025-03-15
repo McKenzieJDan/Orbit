@@ -106,29 +106,6 @@ To configure a complete development environment:
 ./setup_dev_environment.sh
 ```
 
-## Standardized Console Output
-
-All scripts in Orbit use a standardized console output style with color-coded messages for different types of information:
-- 🔵 Blue for general information
-- 🟢 Green for success messages
-- 🟡 Yellow for warnings
-- 🔴 Red for errors
-- 🔷 Cyan for process messages
-
-This consistent styling makes it easier to understand script output at a glance and provides a unified experience across all scripts.
-
-## Script Templates
-
-Orbit includes script templates to help maintain consistency when creating new scripts. You can find these templates in the `.cursor/templates` directory:
-
-- `script_template.sh` - A comprehensive shell script template with standardized console output, logging, error handling, and more
-
-To use a template, copy it to your desired location and customize it according to your needs:
-```
-cp .cursor/templates/script_template.sh your_new_script.sh
-chmod +x your_new_script.sh
-```
-
 ## Requirements
 
 - macOS Sonoma 14.0 or higher
